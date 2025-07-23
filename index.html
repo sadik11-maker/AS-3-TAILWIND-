@@ -21,6 +21,13 @@
 
 <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+<!-- Add this in your CSS or <style> -->
+<style>
+  body {
+    background-color: white; /* or bg-white in Tailwind */
+  }
+</style>
+
 </head>
 <body>
     <header>
@@ -61,7 +68,7 @@
   </div>
 </div>
 </header>
-    <main>
+    <main class="ml-8">
 <section>
   <div class="relative w-full">
     <!-- Image -->
@@ -80,6 +87,28 @@
       </button>
     </div>
   </div>
+</section>
+<section>
+  <div>
+    <h1 class="text-[rgb(17,17,17)] font-[ADLaM Display] text-[36px] ">Browse By Categories</h1>
+  </div>
+
+  <div class="py-8 ml-5  card bg-[#F9DF8A] w-1/4 pt-[48px] rounded-e-xl ">
+ <div class="rounded-md w-full h-[90px] left-4 t-[24px]">
+   <figure class="px-10 pt-1">
+    <img
+      src="c1-assets/dog-cartoon.png"
+      alt="Shoes"
+      class="rounded-full  w-[100px] h-[100px] bg-white" />
+ </div>
+  </figure>
+  <div class="card-body items-center text-center">
+    <h2 class="card-title">Dog</h2>
+    <p>3 items</p>
+    <div class="card-actions">
+    </div>
+  </div>
+</div>
 </section>
 
     </main>
